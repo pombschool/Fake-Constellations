@@ -1,17 +1,16 @@
 .eye_body {
-    background: #f00;
+    background: #90ee90;
     text-align: center;
 }
 
 .eye-p {
-    color: black;
+    color: green;
     font-family: 'Akaya Telivigala', cursive;
 }
 
 h1{
-    color: red;
+    color: #ff4400;
     font-size: 35px;
-    background-color: black;
 }
 
 .body_main {
@@ -22,7 +21,6 @@ h1{
   h1{
     color: red;
     font-size: 35px;
-    background-color: black;
   }
 
   img{
@@ -35,7 +33,7 @@ h1{
   }
   
   p{
-    color: yellow;
+    color: #ff0000;
     font-size: 20px;
     font-family: 'Akaya Telivigala', cursive;
   }
