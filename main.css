@@ -1,0 +1,45 @@
+.eye_body {
+    background: #90ee90;
+    text-align: center;
+}
+
+.eye-p {
+    color: green;
+    font-family: 'Akaya Telivigala', cursive;
+}
+
+h1{
+    color: #ff4400;
+    font-size: 35px;
+}
+
+.body_main, .bodymodule{
+    background-color: #00B0FF;
+    text-align: center;
+  }
+
+  h1{
+    color: red;
+    font-size: 35px;
+  }
+
+  img{
+    height: 425px;
+    border-style: dashed;
+    border-width: 5px;
+    border-color: yellow;
+    border-radius: 30px;
+    padding: 10px;
+  }
+  
+  p{
+    color: #ff0000;
+    font-size: 20px;
+    font-family: 'Akaya Telivigala', cursive;
+  }
+
+  button {
+    background-color: greenyellow;
+    border-radius: 5px;
+    padding: 5px;
+  }
