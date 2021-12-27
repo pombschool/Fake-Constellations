@@ -4,6 +4,7 @@
         <title>Documentary: Fake Constellations</title>
         <link rel="stylesheet" href="main.css">
         <script src="module.js"></script>
+        <link rel="icon" href="Nebulae.jpg" type="image/icon type">
         <link href="https://fonts.googleapis.com/css2?family=Akaya+Telivigala&display=swap" rel="stylesheet">
     </head>
     <style>
@@ -23,7 +24,7 @@
             border-width: 0px;
         }
     </style>
-    <body class="body_main">
+    <body class="body_main" id="body">
         <h1> Module </h1>
         <h4>This page will be updated periodically, as subjects pertaining to Astronomy 
             are not easy to predict and what makes sense at one point may not make sense 
@@ -45,17 +46,25 @@
         </p>
         <hr>
         <h1>Help! -Sandhya; to: Anyone helping with the project</h1>
-        <label>
-            Please help me in these areas.
+        <label id="directions">
+            Please type key given by website owner to go to page. If entered key doesn't exist,
+            input and border will turn red. If it is correct, you will be redirected to 
+            another page.
         </label>
-        <p>
-            1. Expanding website.
-        </p>
-        <p>
-            2. Transfering diagrams from plain paper to graph.
-        </p>
-        <p>
-            3.Maximize amount of text and diagrams.
-        </p>
+        <p>Key: </p>
+        <input type="text" id="key" placeholder="Type key here">
+        <button onclick="help()">Submit</button>
     </body>
 </html>
+<style>
+    input {
+        border-radius: 10px;
+        border-color: deeppink;
+        background-color: lightcyan;
+        border-width: 3px;
+        padding: 10px;
+    }
+    button {
+        margin: 30px;
+    }
+</style>
