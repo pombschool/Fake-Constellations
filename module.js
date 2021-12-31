@@ -10,6 +10,11 @@ function help() {
         document.getElementById("key").value = "";
         window.location = "Help.html";
     }
+    else if(user == "All") {
+        localStorage.setItem("user", "All");
+        document.getElementById("key").value = "";
+        window.location = "AllHelp.html";
+    }
     else {
         document.getElementById("key").style = "background-color: red;";
         document.getElementById("body").style = "border-color: red;";
