@@ -19,8 +19,8 @@ function help() {
         document.getElementById("key").value = "";
         window.location = "Help.html";
     }
-    else if(user == "Shreyas"){
-        localStorage.setItem("user", "Shreyas");
+    else if(user == "$hreyas"){
+        localStorage.setItem("user", "$hreyas");
         document.getElementById("key").value = "";
         window.location = "Help.html";
     }
