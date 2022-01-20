@@ -18,8 +18,19 @@ h1{
     text-align: center;
   }
 
+
+.blue-background {
+  background-color: blue;
+  text-align: center;
+}
+
+.green-background {
+  background-color: green;
+  text-align: center;
+}
+
   h1{
-    color: red;
+    color: red !important;
     font-size: 35px;
   }
 

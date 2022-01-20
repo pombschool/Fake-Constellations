@@ -20,7 +20,7 @@ function help() {
         window.location = "Help.html";
     }
     else if(user == "$hreyas"){
-        localStorage.setItem("user", "$hreyas");
+        localStorage.setItem("user", "Shreyas");
         document.getElementById("key").value = "";
         window.location = "Help.html";
     }
