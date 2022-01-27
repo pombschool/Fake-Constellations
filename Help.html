@@ -6,11 +6,32 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Helping Doc</title>
     <link rel="icon" href="help.png" type="image/icon type">
+    <link rel="stylesheet" href="main.css">
+    <script src="https://www.gstatic.com/firebasejs/7.6.2/firebase-app.js"></script>
+<script src="https://www.gstatic.com/firebasejs/7.6.2/firebase-firestore.js"></script>
+<script src="https://www.gstatic.com/firebasejs/live/3.1/firebase.js"></script>
 </head>
-<body>
+<style>
+    body {
+            margin: 50px;
+            border-style: dashed;
+            border-width: 5px;
+            border-color: #f00fff;
+            border-radius: 50px;
+            padding: 20px;
+        }
+</style>
+<body class="body_main">
     <center>
         <h1>Welcome <label id="name"></label></h1>
+        <label>Note: Help page not working. Work in progress. On the other hand, comments section is working. Please leave suggestion or comments in the comment box.</label>
         <div id="output"></div>
+        <hr>
+        <h1>Comments and suggestions</h1>
+        <input id="comments">
+        <button type="submit" onclick="add()">Add</button>
+        <div id="comment"></div>
+        <br>
         <button> <a href="module.html"> Back</a></button>
     </center>
 </body>

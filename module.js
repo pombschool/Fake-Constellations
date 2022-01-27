@@ -10,17 +10,19 @@ var firebaseConfig = {
   };
   
   // Initialize Firebase
-  var app = initializeApp(firebaseConfig);
+  firebase.initializeApp(firebaseConfig);
 
 function help() {
     user = document.getElementById("key").value;
     if(user == "Goodwin"){
         localStorage.setItem("user", "Mrs. Goodwin");
+        localStorage.setItem("roomname", "Goodwin")
         document.getElementById("key").value = "";
         window.location = "Help.html";
     }
     else if(user == "$hreyas"){
         localStorage.setItem("user", "Shreyas");
+        localStorage.setItem("roomname", "Shreyas")
         document.getElementById("key").value = "";
         window.location = "Help.html";
     }

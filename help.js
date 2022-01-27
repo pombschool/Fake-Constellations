@@ -8,7 +8,8 @@ var firebaseConfig = {
     projectId: "constellations-f8f62",
     storageBucket: "constellations-f8f62.appspot.com",
     messagingSenderId: "918076456711",
-    appId: "1:918076456711:web:ad89d6708c266c69c9cfa2"
+    appId: "1:918076456711:web:ad89d6708c266c69c9cfa2",
+    measurementId: "G-RS6VJFRFWG"
   };
   
   firebase.initializeApp(firebaseConfig);
@@ -19,6 +20,13 @@ function getData() { firebase.database().ref("/"+room_name).on('value', function
 //Start code
     console.log(firebase_message_id);
     console.log(message_data);
-
+//end code
     } });  }); }
 getData();
+
+function add() {
+    value = document.getElementById("comments").value;
+    document.getElementById("comments").value = "";
+    tag = "<p>" + value + "</p><hr>"
+    document.getElementById("comment").innerHTML = tag;
+}
