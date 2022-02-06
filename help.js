@@ -20,13 +20,12 @@ function getData() { firebase.database().ref("/"+room_name).on('value', function
 //Start code
     console.log(firebase_message_id);
     console.log(message_data);
+    var help = "<h3 class='eye-p'>" + message_data["1"] +"</h3>"
+    document.getElementById("output").innerHTML += help;
 //end code
     } });  }); }
 getData();
 
-function add() {
-    value = document.getElementById("comments").value;
-    document.getElementById("comments").value = "";
-    tag = "<p>" + value + "</p><hr>"
-    document.getElementById("comment").innerHTML = tag;
+function redirect() {
+    window.location = "https://sandhyas14.github.io/Kwitter/"
 }
