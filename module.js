@@ -34,6 +34,7 @@ function help() {
     else {
         document.getElementById("key").style = "background-color: red;";
         document.getElementById("body").style = "border-color: red;";
+        document.getElementById("hrtag").style = "background-color: red;";
         document.getElementById("key").value = "";
     };
 }
